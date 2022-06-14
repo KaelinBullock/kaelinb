@@ -1,0 +1,20 @@
+.app__about {
+   display: flex;
+   color: white;
+   font-family: var(--font-base);
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.app__about-skills {
+   display: flex;
+   padding: 0;
+   margin: 0;
+   font-family: var(--font-base);
+}
+
+.app__about-description {
+   display: flex;
+   align-items: flex-start;
+   text-align: left;
+}

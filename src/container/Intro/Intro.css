@@ -1,0 +1,20 @@
+.app_intro {
+   display: flex;
+   justify-content: flex-start;
+   /* align-items: center; */
+   flex-direction: column;
+   color: white;
+   font-family: var(--font-base);
+}
+
+.app_intro-name {
+
+   display: flex;
+   /* justify-content: flex-start; */
+
+}
+
+.app__intro-info {
+   font-size: 75px;
+   line-height: 100px;
+ }

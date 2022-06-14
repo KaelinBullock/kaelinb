@@ -1,0 +1,11 @@
+.app__projects {
+   display: flex;
+   color: white;
+   font-family: var(--font-base);
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.app__projects_header {
+   text-align: left;
+}
