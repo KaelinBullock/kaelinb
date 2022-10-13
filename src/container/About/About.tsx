@@ -5,7 +5,7 @@ interface AboutProps {}
 
 const About: FC<AboutProps> = () => (
   <div className="app__about app__bg section__padding">
-    <h1 className='app__about-skills headtext'>About Me</h1>
+    <h1 className='headtext app__about-skills'>About Me</h1>
     <h1>Skills</h1>
     <p className='app__about-description p__notosans'>Java, SQL, Typescript, Angular, React, APIs, Spring Boot,</p>
     <h1>Background</h1>

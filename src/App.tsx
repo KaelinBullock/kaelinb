@@ -5,6 +5,7 @@ import About from './container/About/About';
 import Intro from './container/Intro/Intro';
 import Projects from './container/Projects/Projects';
 import Header from './container/Header/Header';
+import Contact from './container/Contact/Contact';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Intro />
       <About />
       <Projects />
+      <Contact />
     </div>
   );
 }

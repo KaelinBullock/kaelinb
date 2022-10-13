@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;500&family=Nuosu+SIL&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@300;400;500&display=swap');
 
 :root {
   --font-base: 'Noto Sans', sans-serif;
-  /* --font-alt: 'Open Sans', sans-serif; */
-  
-  --color-golden: #DCCA87;
-  --color-black: #0C0C0C;
-  --color-gray: #545454;
-  --color-crimson: #F5EFDB;
-  --color-grey: #AAAAAA;
+  --font-alt: 'Bebas Neue', sans-serif;
+
   --color-white: #FFFFFF;
+  --color-linen: #f3e9dc;
+  --color-rblack: #000103;
+  --color-orange: #FF312E;
+  --color-dorange: #D80032;
+  --color-taupe: #715b64;
 }
 
 body {

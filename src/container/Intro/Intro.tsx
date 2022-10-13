@@ -1,48 +1,32 @@
-import React, { FC } from 'react';
-// import {useLottie} from 'lottie-react';
-import groovyWalkAnimation from "./stairs.json";
+import { FC } from 'react';
+import { AiOutlineDash } from "react-icons/ai";
 
+import Laptop from '../../constants/Stairs';
 import './Intro.css';
 
 interface IntroProps {}
 
-// const Example = () => {
-  
-// };
-
-// const options = {
-//   animationData: groovyWalkAnimation,
-//   loop: true,
-//   autoplay: true,
-// };
-
-// const { View } = useLottie(options);
-
 const Intro: FC<IntroProps> = () => (
-  // const container = useRef(null)
-
-  // useEffect(() => {
-  //   Lottie.loadAnimation({
-  //     container,
-  //     renderer: 'svg',
-  //     loop: true,
-  //     autoplay: true
-  //   })
-  // }, []);
-
-
   <div className="app_intro app__bg section__padding">
     <div className='app_intro-name'>
-      <p >Freelancer</p>
-      <p>---</p>
-      <p>Kaelin Bullock</p>
+      <p>Freelancer</p>
+      <span className='app_intro-icon'><AiOutlineDash /></span>
+      <p className='app__intro-name-kaelin'>Kaelin Bullock</p>
     </div>
 
     <div className='app_intro-greeting'>
-      {/* {View} */}
-      <h1 className='app__intro-info'>I'm a Freelance Programmer<br/>
-        Full Stack Web Development
-      </h1>
+      <div className='app__intro-text-graphic'>
+        <div className='app__intro-graphic'>
+        <Laptop />
+        </div>
+        <div>
+          <h1 className='app__intro-info'>I'm a Freelance<br/>
+            Full Stack Web Developer
+          </h1>
+        </div>
+        
+      </div>
+        <p>I prefer back end, but I will do whatever it takes to get to the end</p>
     </div>
     <div className='app_intro-contact'></div>
   </div>

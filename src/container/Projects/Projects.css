@@ -1,11 +1,70 @@
 .app__projects {
    display: flex;
-   color: white;
-   font-family: var(--font-base);
+   font-family: var(--font-alt);
    flex-direction: column;
-   align-items: flex-start;
+   align-items: center;
+   background-color: var(--color-rblack);
+   color: var(--color-white);
 }
 
 .app__projects_header {
-   text-align: left;
+   line-height: 50px;
+   font-family: var(--font-alt);
+
+}
+
+.app__projects-container {
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+
+.app__projects-img {
+   width: 50%;
+   padding: 3rem;
+}
+
+.app__projects-img img {
+   width: 80%;
+   height: auto;
+}
+
+.app__projects-info {
+   width: 50%;
+   align-items: center;
+   text-align: center;
+}
+
+.app__projects-info {
+   text-align: center;
+}
+
+.app__projects-description {
+   color: white;
+}
+
+@media screen and (min-width: 2000px) {
+
+}
+
+@media screen and (max-width: 1150px) {
+
+}
+
+@media screen and (max-width: 850px) {
+
+}
+
+@media screen and (max-width: 650px) {
+   .app__projects-container {
+      justify-content: center;
+   }
+
+   .app__projects-info {
+      width: 100%;
+   }
+
+   .app__projects-img {
+      display: none;
+   }
 }

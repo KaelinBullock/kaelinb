@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: black;
+  background-color: var(--color-rblack);
 }
 
 .App-logo {
@@ -15,14 +15,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -39,13 +37,11 @@
 }
 
 .app__bg {
-  background-color: black;
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
   background-attachment: fixed;
-  background-color: black;
-  /* height: 100vh; */
+  background-color: var(--color-linen);
 }
 
 .section__padding {
@@ -58,9 +54,9 @@
 }
 
 .p__notosans {
-  font-family: var(--font-alt);
-  color: var(--color-white);
-  font-weight: 400;
+  font-family: var(--font-base);
+  color: var(--color-rblack);
+  font-weight: 300;
   letter-spacing: 0.04em;
   text-transform: capitalize;
   line-height: 28px;

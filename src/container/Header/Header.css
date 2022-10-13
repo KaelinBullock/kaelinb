@@ -1,11 +1,11 @@
 .app__header {
    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--color-black);
-    
-    padding:s 1rem 2rem;
+   height: 5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: var(--color-black);
+   padding:s 1rem 2rem;
 }
 
 .app__header-logo {
@@ -30,4 +30,5 @@
 .app__header-links li {
    margin: 0 1rem;
    cursor: pointer;
+   color: var(--color-linen);
 }
